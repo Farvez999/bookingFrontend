@@ -1,0 +1,8 @@
+.banner {
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0.259), rgba(0, 0, 0, 0.604)),
+      url("../../assest/natural-image.jpg") no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   background-blend-mode: overlay;
+}

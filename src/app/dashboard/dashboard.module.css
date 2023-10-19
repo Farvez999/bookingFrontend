@@ -1,0 +1,7 @@
+.dashBoardLayout {
+   background: linear-gradient(-90deg, #03c6f76f, #00000081),
+      url("../../assest/dashboard_bg.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: screen;
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::file-selector-button {
+  width: 60px;
+  /* display: none; */
+}
+/* styles.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pagination .active a {
+  color: #10b981; /* Active page link color */
+  text-decoration: underline;
+}
