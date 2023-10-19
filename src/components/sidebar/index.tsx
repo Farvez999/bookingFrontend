@@ -14,9 +14,8 @@ const SideBar = ({ isOpen }: { isOpen: boolean }) => {
   let role = userRole ? userRole : user?.role;
   return (
     <div
-      className={`min-w-[250px] duration-500 transition-all absolute  z-[999] top-0 h-screen bg-white  shadow-[2px_2px_2px_2px_#ddd]   ${
-        isOpen ? "  left-0 " : "   -left-[999px] "
-      }`}
+      className={`min-w-[250px] duration-500 transition-all absolute  z-[999] top-0 h-screen bg-white  shadow-[2px_2px_2px_2px_#ddd]   ${isOpen ? "  left-0 " : "   -left-[999px] "
+        }`}
     >
       {role === "user" && (
         <div className="py-7 px-5  flex flex-col gap-3">

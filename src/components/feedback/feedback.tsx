@@ -62,14 +62,7 @@ const Feedback = () => {
 
   return (
     <div className="grid lg:grid-cols-2 gap-4">
-      <div>
-        <img
-          alt="feedback"
-          height={300}
-          width={500}
-          src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmVlZGJhY2t8ZW58MHx8MHx8fDA%3D"
-        ></img>
-      </div>
+
       <div>
         <form onSubmit={handleSubmitFeedback}>
           <div className="flex flex-col">
@@ -112,6 +105,14 @@ const Feedback = () => {
             Submit your feedback
           </button>
         )}
+      </div>
+      <div>
+        <img
+          alt="feedback"
+          height={300}
+          width={500}
+          src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmVlZGJhY2t8ZW58MHx8MHx8fDA%3D"
+        ></img>
       </div>
     </div>
   );

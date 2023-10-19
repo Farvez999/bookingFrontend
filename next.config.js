@@ -10,6 +10,8 @@ const nextConfig = {
       "r-xx.bstatic.com",
       "example.com",
       "img.freepik.com",
+      "unsplash.com",
+      "plus.unsplash.com"
     ],
   },
 };
