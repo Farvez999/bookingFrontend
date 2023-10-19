@@ -70,7 +70,7 @@ const RoomCard = ({ room }: any) => {
             <h5 className="text-2xl font-bold uppercase ">BDT {pricing}</h5>
             <ActionButton
               handleAction={() => router.push(`/${building}/${room?._id}`)}
-              containerStyles="bg-black hover:bg-primary duration-300   text-xs rounded-md text-white py-2"
+              containerStyles="bg-black hover:bg-orange-500 duration-300   text-xs rounded-md text-white py-2"
             >
               show details
             </ActionButton>

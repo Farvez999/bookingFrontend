@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pb-10 ">
       <Banner></Banner>
-      <div className="grid grid-cols-1 md:grid-cols-3 items-center w-[90%] gap-3 bg-secondary px-10 rounded-md  md:rounded-full py-5 z-[99] -mt-[150px] md:-mt-[80px] shadow-[2px_2px_2px_2px_#ddd]">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-center w-[90%] gap-3 bg-secondary px-10 rounded-sm  md:rounded-full py-5 z-[99] -mt-[150px] md:-mt-[80px] shadow-[2px_2px_2px_2px_#ddd]">
         <InputText
           label="Search Keyword"
           type="text"
@@ -97,8 +97,8 @@ export default function Home() {
           options={servicecategoryEnum}
         ></InputSelection>
       </div>
-      <h1 className="text-3xl font-bold mt-4 text-[#10B981]">
-        avilable Hotels For Booking
+      <h1 className="text-3xl font-bold mt-4 text-orange-500">
+        Avilable For Booking
       </h1>
       <div className="w-full grid  grid-cols-1 md:grid-cols-2 px-10 py-10 gap-5">
         {data
@@ -123,7 +123,7 @@ export default function Home() {
           activeClassName={"active"}
         />
       </div>
-      <h1 className="text-3xl font-bold my-4 text-blue-500">
+      <h1 className="text-3xl font-bold my-4 text-orange-500">
         Search By Apartment Category
       </h1>
       <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1">
@@ -132,7 +132,7 @@ export default function Home() {
 
       {/* upcoming */}
 
-      <h1 className="text-3xl font-bold mt-6 text-center text-[#10B981]">
+      <h1 className="text-3xl font-bold mt-6 text-center text-orange-500">
         Upcoming Services For Booking
       </h1>
       <div className="w-full grid  grid-cols-1 md:grid-cols-2 px-10 py-10 gap-5">
@@ -146,7 +146,7 @@ export default function Home() {
           ))}
       </div>
 
-      <h1 className="text-3xl mb-6 font-bold mt-6 text-center text-blue-500">
+      <h1 className="text-3xl mb-6 font-bold mt-6 text-center text-orange-500">
         Submit Your Valuable Feedback here
       </h1>
       <Feedback></Feedback>

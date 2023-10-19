@@ -50,9 +50,8 @@ const HotelCard = ({ serviceData }: any) => {
           <div className="flex justify-end items-start absolute top-5 right-5 md:top-3 md:right-3 gap-1 ">
             <div className="flex flex-col items-end "></div>
             <div
-              className={`p-1 py-1 inline-block ${
-                status === "upcoming" ? "bg-red-500" : "bg-blue-500"
-              } text-lg rounded-md text-white`}
+              className={`p-1 py-1 inline-block ${status === "upcoming" ? "bg-red-500" : "bg-blue-500"
+                } text-lg rounded-md text-white`}
             >
               {status}
             </div>
@@ -83,7 +82,7 @@ const HotelCard = ({ serviceData }: any) => {
             <ActionButton
               disabled={status === "upcoming"}
               handleAction={() => router.push(serviceData?._id)}
-              containerStyles="bg-black hover:bg-primary duration-300    text-xs rounded-md text-white py-2"
+              containerStyles="bg-black hover:bg-orange-500 duration-300    text-xs rounded-md text-white py-2"
             >
               {status === "upcoming" ? "upcoming" : " See Availability"}
             </ActionButton>

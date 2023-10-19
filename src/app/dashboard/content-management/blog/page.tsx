@@ -63,7 +63,7 @@ const Createroom = () => {
           {data?.map((blog: any, idx: number) => (
             <TableRow
               key={blog?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
 
@@ -81,10 +81,10 @@ const Createroom = () => {
                   >
                     <LiaEdit
                       size={20}
-                      // onClick={() => {
-                      //   setSelected(room);
-                      //   setShowModal(true);
-                      // }}
+                    // onClick={() => {
+                    //   setSelected(room);
+                    //   setShowModal(true);
+                    // }}
                     ></LiaEdit>
                   </Link>
                 </div>

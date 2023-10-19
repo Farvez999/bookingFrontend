@@ -12,7 +12,7 @@ const DetailsBlog = ({ params }: any) => {
           <Image src={data?.image} alt="blogimage"></Image>
         </div>
         <div className="text-end ">
-          <h5 className="text-2xl text-blue-500 font-bold mb-2">
+          <h5 className="text-2xl bg-orange-500 font-bold mb-2">
             {data?.title}
           </h5>
           <p className="text-red-500 my-4 font-bold">{data?.category}</p>

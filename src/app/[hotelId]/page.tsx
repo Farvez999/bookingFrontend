@@ -34,15 +34,14 @@ const SingleHotelDetails = (props: any) => {
               src={image.url}
               key={idx}
               alt="hotel image"
-              className={`w-full rounded-xl h-auto ${
-                idx === 0 && "md:col-span-2 row-span-2  "
-              }`}
+              className={`w-full rounded-xl h-auto ${idx === 0 && "md:col-span-2 row-span-2  "
+                }`}
               width={100}
               height={100}
             ></Image>
           ))}
         </div>
-        <h3 className="font-bold text-blue-500">Facilites:</h3>
+        <h3 className="font-bold bg-orange-500">Facilites:</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center ">
           {facilities?.map((item: any) => (
             <div
@@ -54,7 +53,7 @@ const SingleHotelDetails = (props: any) => {
             </div>
           ))}
         </div>
-        <h3 className="font-bold text-blue-500">Description:</h3>
+        <h3 className="font-bold bg-orange-500">Description:</h3>
         <p className="text-black text-bold py-4 ">{description}</p>
         <div></div>
       </div>

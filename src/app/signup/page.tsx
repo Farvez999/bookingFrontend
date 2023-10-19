@@ -249,7 +249,7 @@ const Signup = () => {
           </div>
           {/* <Link
                   href="/forget-password"
-                  className="text-blue-500 underline  text-end block text-xs "
+                  className="bg-orange-500 underline  text-end block text-xs "
                >
                   forget password
                </Link> */}
@@ -264,12 +264,12 @@ const Signup = () => {
               !formData?.confirm ||
               !formData?.phone
             }
-            containerStyles=" bg-primary mx-auto   text-black inline-block  w-full md:w-1/2  "
+            containerStyles=" bg-orange-500 mx-auto   text-black inline-block  w-full md:w-1/2  "
           />
           <p className="text-xs flex items-center gap-2">
             Already have an account
             <Link
-              className="text-blue-500 underline text-xs text-end block"
+              className="bg-orange-500 underline text-xs text-end block"
               href="/login"
             >
               login

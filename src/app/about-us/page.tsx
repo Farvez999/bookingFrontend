@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="h-screen w-[90%] mx-auto ">
-      <h1 className="text-2xl font-bold text-blue-500 my-5 text-center">
+      <h1 className="text-2xl font-bold bg-orange-500 my-5 text-center">
         About Us
       </h1>
       <div className="grid grid-cols-2 items-center ">

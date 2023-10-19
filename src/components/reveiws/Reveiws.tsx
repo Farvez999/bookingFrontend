@@ -35,7 +35,7 @@ const Reveiws = ({ data }: any) => {
               <div className="text-orange-600">
                 <BsFillPersonLinesFill size={30} />
               </div>
-              <h2 className="card-title text-blue-500">{review?.user?.name}</h2>
+              <h2 className="card-title bg-orange-500">{review?.user?.name}</h2>
             </div>
             <p>{review?.message}</p>
             <div className="rating gap-1">
@@ -44,9 +44,8 @@ const Reveiws = ({ data }: any) => {
                   <input
                     type="radio"
                     name={`rating-${index}`}
-                    className={`mask mask-star ${
-                      index <= review?.rating ? "bg-orange-500" : "bg-gray-400"
-                    }`}
+                    className={`mask mask-star ${index <= review?.rating ? "bg-orange-500" : "bg-gray-400"
+                      }`}
                   />
                 </div>
               ))}

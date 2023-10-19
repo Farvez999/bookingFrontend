@@ -76,7 +76,7 @@ const UserManagement = () => {
           {data?.map((user: any, idx: number) => (
             <TableRow
               key={user?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{user.name}</TableCol>

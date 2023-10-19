@@ -9,7 +9,7 @@ const Blog = () => {
   const { data } = useGetallblogsQuery(undefined);
   return (
     <div className="h-screen container mx-auto">
-      <h1 className="text-3xl text-blue-500 font-bold text-center my-8">
+      <h1 className="text-3xl bg-orange-500 font-bold text-center my-8">
         Some Blogs
       </h1>
       <div className="grid lg:grid-cols-3  gap-4 grid-cols-1">
@@ -28,7 +28,7 @@ const Blog = () => {
                 <p>category: {blog?.category}</p>
                 <div className="card-actions justify-end">
                   <Link href={`/blog/${blog?._id}`}>
-                    <button className="btn btn-accent bg-blue-600 text-white border-0">
+                    <button className="btn btn-secondary bg-blue-600 text-white border-0">
                       details
                     </button>
                   </Link>

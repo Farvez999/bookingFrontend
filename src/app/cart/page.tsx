@@ -68,7 +68,7 @@ export default function MyCart() {
               </div>
               <ActionButton
                 handleAction={() => router.push(`/${b?.building}/${b?._id}`)}
-                containerStyles="bg-blue-500 hover:bg-primary duration-300   text-xs rounded-md text-white py-2"
+                containerStyles="bg-blue-500 hover:bg-orange-500 duration-300   text-xs rounded-md text-white py-2"
               >
                 show details
               </ActionButton>

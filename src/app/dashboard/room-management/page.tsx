@@ -82,7 +82,7 @@ const Createroom = () => {
           {data?.map((room: any, idx: number) => (
             <TableRow
               key={room?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{room.title}</TableCol>
@@ -108,10 +108,10 @@ const Createroom = () => {
                   <Link href={`/dashboard/room-management/${room?._id}`}>
                     <LiaEdit
                       size={20}
-                      // onClick={() => {
-                      //   setSelected(room);
-                      //   setShowModal(true);
-                      // }}
+                    // onClick={() => {
+                    //   setSelected(room);
+                    //   setShowModal(true);
+                    // }}
                     ></LiaEdit>
                   </Link>
                 </div>

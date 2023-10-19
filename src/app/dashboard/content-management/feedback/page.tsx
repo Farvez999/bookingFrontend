@@ -11,7 +11,7 @@ import CommonModal from "@/components/CommonModal/CommonModal";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
-import {} from "@/redux/api/contentApi";
+import { } from "@/redux/api/contentApi";
 import { useGetallfeedbackQuery } from "@/redux/api/feedBackApi";
 const UserManagement = () => {
   const {
@@ -40,7 +40,7 @@ const UserManagement = () => {
           {data?.map((feedback: any, idx: number) => (
             <TableRow
               key={feedback?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{feedback.email}</TableCol>

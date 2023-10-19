@@ -42,7 +42,7 @@ const Mybooking = () => {
               <h2 className="card-title text-blue-900">{b?.room?.title}</h2>
               <p className=" font-bold">
                 {" "}
-                bookingNo: <span className="text-blue-500">{b?.bookingNo}</span>
+                bookingNo: <span className="bg-orange-500">{b?.bookingNo}</span>
               </p>
               <p className="font-bold">
                 status: <span className="text-red-500"> {b?.status}</span>

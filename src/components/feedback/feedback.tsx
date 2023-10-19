@@ -67,19 +67,19 @@ const Feedback = () => {
           alt="feedback"
           height={300}
           width={500}
-          src="https://img.freepik.com/free-vector/we-want-your-feedback-yellow-flat-background_1017-38689.jpg?size=626&ext=jpg&ga=GA1.1.137143835.1697663080&semt=sph"
+          src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmVlZGJhY2t8ZW58MHx8MHx8fDA%3D"
         ></img>
       </div>
       <div>
         <form onSubmit={handleSubmitFeedback}>
           <div className="flex flex-col">
-            <label className="font-bold pb-1">email:</label>
+            <label className="font-bold pb-1">Email:</label>
             <input
               className="border-2 border-gray-500 lg:w-[600px] ps-4 py-2"
               type="text"
               id="username"
               value={email ? email : useremail}
-              placeholder="enter your email"
+              placeholder="Enter your email"
               onChange={(e) => setuseremail(e.target.value)}
             />
           </div>
@@ -98,7 +98,7 @@ const Feedback = () => {
           {email && (
             <button
               type="submit"
-              className="btn mt-4 btn-accent btn-md text-white"
+              className="btn mt-4 btn-secondary btn-md text-white"
             >
               Submit your feedback
             </button>
@@ -107,7 +107,7 @@ const Feedback = () => {
         {!email && (
           <button
             onClick={handleRedirect}
-            className="btn mt-4 btn-accent btn-md text-white"
+            className="btn mt-4 btn-secondary btn-md text-white"
           >
             Submit your feedback
           </button>

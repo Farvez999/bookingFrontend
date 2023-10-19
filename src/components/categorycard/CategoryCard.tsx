@@ -18,7 +18,7 @@ const CategoryCard = () => {
           <p>click here for avilable hotels by catagory</p>
           <div className="card-actions justify-end">
             <Link href="/category?category=hotels">
-              <button className="btn  btn-accent text-white  ">View All</button>
+              <button className="btn  btn-secondary text-white  ">View All</button>
             </Link>
           </div>
         </div>
@@ -36,7 +36,7 @@ const CategoryCard = () => {
           <p>click here for avilalbe Apartments by catagory</p>
           <div className="card-actions justify-end">
             <Link href="/category?category=apartments">
-              <button className="btn  btn-accent text-white">View All</button>
+              <button className="btn  btn-secondary text-white">View All</button>
             </Link>
           </div>
         </div>
@@ -54,7 +54,7 @@ const CategoryCard = () => {
           <p>click here for avilalbe Resorts by catagory</p>
           <div className="card-actions justify-end">
             <Link href="/category?category=resorts">
-              <button className="btn btn-accent text-white  ">View All</button>
+              <button className="btn btn-secondary text-white  ">View All</button>
             </Link>
           </div>
         </div>
@@ -72,7 +72,7 @@ const CategoryCard = () => {
           <p>click here for avilalbe villas by catagory</p>
           <div className="card-actions justify-end">
             <Link href="/category?category=villas">
-              <button className="btn btn-accent text-white  ">View All</button>
+              <button className="btn btn-secondary text-white  ">View All</button>
             </Link>
           </div>
         </div>

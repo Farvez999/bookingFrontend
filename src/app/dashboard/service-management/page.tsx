@@ -75,7 +75,7 @@ const CreateService = () => {
           {data?.map((service: any, idx: number) => (
             <TableRow
               key={service?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{service.name}</TableCol>
@@ -93,10 +93,10 @@ const CreateService = () => {
                   <Link href={`/dashboard/service-management/${service?._id}`}>
                     <LiaEdit
                       size={20}
-                      // onClick={() => {
-                      //   setSelected(service);
-                      //   setShowModal(true);
-                      // }}
+                    // onClick={() => {
+                    //   setSelected(service);
+                    //   setShowModal(true);
+                    // }}
                     ></LiaEdit>
                   </Link>
                 </div>

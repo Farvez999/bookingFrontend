@@ -9,6 +9,10 @@ import {
   AiOutlineLogin,
   AiFillFile,
 } from "react-icons/ai";
+import { GrServices } from "react-icons/gr";
+import { FcAbout } from "react-icons/fc";
+import { BiLogoBlogger } from "react-icons/bi";
+import { FaQuoteLeft } from "react-icons/fa";
 // import {CgProfile} from 'react-icons/cg'
 import { FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
@@ -45,16 +49,15 @@ const Index = () => {
     dispatch(setUser({}));
   };
   return (
-    <div className="relative flex items-center justify-between h-20 bg-primary  text-black px-5  md:px-10 ">
+    <div className="relative flex items-center justify-between h-20 bg-orange-500  text-black px-5  md:px-10 ">
       <Link href="/" className="text-xl font-semibold">
-        <h1 className="uppercase text-white ">Booking.com</h1>
+        <h1 className="uppercase text-white ">Tour De</h1>
       </Link>
 
       <div className="flex items-center  gap-3">
         <nav
-          className={`absolute top-20 duration-500 transition-all h-screen md:h-auto bg-primary w-[200px] md:w-auto md:bg-transparent left-0 md:static flex flex-col z-[999]   md:flex-row justify-start px-5 md:px-0 font-medium  md:items-center gap-5 ${
-            show ? "left-0" : "left-[-999px]"
-          }`}
+          className={`absolute top-20 duration-500 transition-all h-screen md:h-auto bg-orange-500 w-[200px] md:w-auto md:bg-transparent left-0 md:static flex flex-col z-[999]   md:flex-row justify-start px-5 md:px-0 font-medium  md:items-center gap-5 ${show ? "left-0" : "left-[-999px]"
+            }`}
         >
           <Link
             href="/"
@@ -68,7 +71,7 @@ const Index = () => {
             href="/service"
             className="flex items-center gap-2 text-secondary hover:scale-75 duration-300"
           >
-            <AiFillHome></AiFillHome>
+            <GrServices></GrServices>
             <span>Service</span>
           </Link>
 
@@ -76,21 +79,21 @@ const Index = () => {
             href="/about-us"
             className="flex items-center gap-2 text-secondary hover:scale-75 duration-300"
           >
-            <AiFillHome></AiFillHome>
+            <FcAbout></FcAbout>
             <span>About Us</span>
           </Link>
           <Link
             href="/blog"
             className="flex items-center gap-2 text-secondary hover:scale-75 duration-300"
           >
-            <AiFillHome></AiFillHome>
+            <BiLogoBlogger></BiLogoBlogger>
             <span>Blog</span>
           </Link>
           <Link
             href="/faq"
             className="flex items-center gap-2 text-secondary hover:scale-75 duration-300"
           >
-            <AiFillHome></AiFillHome>
+            <FaQuoteLeft></FaQuoteLeft>
             <span>FAQ</span>
           </Link>
         </nav>

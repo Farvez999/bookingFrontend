@@ -142,7 +142,7 @@ const Login = () => {
           />
           <Link
             href="/forget-password"
-            className="text-blue-500 underline  text-end block text-xs "
+            className="bg-orange-500 underline  text-end block text-xs "
           >
             forget password
           </Link>
@@ -150,12 +150,12 @@ const Login = () => {
           <SubmitButton
             text="login"
             disabled={!formData.email || !formData.password}
-            containerStyles=" bg-primary mx-auto   text-black inline-block  w-full  "
+            containerStyles=" bg-orange-500 mx-auto   text-black inline-block  w-full  "
           />
           <p className="text-xs flex items-center gap-2">
             If you have no account, please{" "}
             <Link
-              className="text-blue-500 underline text-xs text-end block"
+              className="bg-orange-500 underline text-xs text-end block"
               href="/signup"
             >
               signup

@@ -48,7 +48,7 @@ const Services = () => {
       <h1 className="text-2xl my-6 font-bold text-blue-600">
         Our All AVilable Apartments for Booking
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3  items-center w-[90%] gap-3 bg-secondary px-10 rounded-md  md:rounded-full  shadow-[2px_2px_2px_2px_#ddd]">
+      <div className="grid grid-cols-1 md:grid-cols-3  items-center w-[90%] gap-3 bg-secondary px-10 rounded  md:rounded-full  shadow-[2px_2px_2px_2px_#ddd]">
         <InputText
           label="Search Keyword"
           type="text"

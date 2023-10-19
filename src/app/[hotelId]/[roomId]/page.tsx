@@ -277,7 +277,7 @@ const RoomDetails = ({ params }: { params: any }) => {
             <ActionButton
               disabled={isBooked ? true : false}
               handleAction={() => setShowModal1(true)}
-              containerStyles="bg-black hover:bg-primary duration-300   text-xs rounded-md text-white py-2"
+              containerStyles="bg-black hover:bg-orange-500 duration-300   text-xs rounded-md text-white py-2"
             >
               {isBooked ? "in booking" : "book now"}
             </ActionButton>
@@ -290,9 +290,8 @@ const RoomDetails = ({ params }: { params: any }) => {
               src={i.url}
               key={idx}
               alt="hotel image"
-              className={`w-full rounded-xl h-auto ${
-                idx === 0 && "md:col-span-2 row-span-2  "
-              }`}
+              className={`w-full rounded-xl h-auto ${idx === 0 && "md:col-span-2 row-span-2  "
+                }`}
               width={100}
               height={100}
             ></Image>
@@ -317,7 +316,7 @@ const RoomDetails = ({ params }: { params: any }) => {
         </div>
         <div>
           <h5 className="text-lg font-bold text-red-500">pricing: {pricing}</h5>
-          <h5 className="text-lg font-bold text-blue-500">
+          <h5 className="text-lg font-bold bg-orange-500">
             discount: {discount ? discount : "no discount avilable"}
           </h5>
         </div>
@@ -329,7 +328,7 @@ const RoomDetails = ({ params }: { params: any }) => {
         <div>
           <p className="my-4">
             status:{" "}
-            <span className="text-blue-500 font-bold border-2 p-2 ">
+            <span className="bg-orange-500 font-bold border-2 p-2 ">
               {isBooked ? "not avilable" : "open for book"}
             </span>
           </p>
@@ -353,7 +352,7 @@ const RoomDetails = ({ params }: { params: any }) => {
         </div>
       )}
       <div>
-        <h1 className="text-2xl font-bold text-blue-500 text-center ">
+        <h1 className="text-2xl font-bold bg-orange-500 text-center ">
           Our Customer s review
         </h1>
         <Reveiws data={data} />
@@ -457,14 +456,14 @@ const RoomDetails = ({ params }: { params: any }) => {
               <div className="md:cols-span-2 justify-end flex items-center">
                 <SubmitButton
                   text="book now"
-                  // disabled={
-                  //   !formData?.name ||
-                  //   !formData?.email ||
-                  //   !formData?.phone ||
-                  //   !formData.discount ||
-                  //   !formData?.checkInDate ||
-                  //   !formData?.checkOutData
-                  // }
+                // disabled={
+                //   !formData?.name ||
+                //   !formData?.email ||
+                //   !formData?.phone ||
+                //   !formData.discount ||
+                //   !formData?.checkInDate ||
+                //   !formData?.checkOutData
+                // }
                 ></SubmitButton>
               </div>
             </div>

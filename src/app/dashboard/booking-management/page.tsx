@@ -132,7 +132,7 @@ const BookingManagement = () => {
           {data?.map((booking: any, idx: number) => (
             <TableRow
               key={booking?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{booking?.bookingNo}</TableCol>

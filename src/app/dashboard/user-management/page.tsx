@@ -79,7 +79,7 @@ const UserManagement = () => {
           {data?.map((user: any, idx: number) => (
             <TableRow
               key={user?._id}
-              styles={`text-xs ${idx % 2 === 1 && "bg-primary"}`}
+              styles={`text-xs ${idx % 2 === 1 && "bg-orange-500"}`}
             >
               <TableCol styles="text-xs">{idx + 1}</TableCol>
               <TableCol styles="text-xs">{user.name}</TableCol>
@@ -99,10 +99,10 @@ const UserManagement = () => {
                   <Link href={`/dashboard/user-management/${user?._id}`}>
                     <LiaEdit
                       size={20}
-                      // onClick={() => {
-                      //   setSelected(user);
-                      //   setShowModal(true);
-                      // }}
+                    // onClick={() => {
+                    //   setSelected(user);
+                    //   setShowModal(true);
+                    // }}
                     ></LiaEdit>
                   </Link>
                 </div>
