@@ -9,18 +9,14 @@ const page = () => {
       </h1>
       <div className="grid grid-cols-2 items-center ">
         <div>
-          <img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-20165.jpg?w=740&t=st=1697727452~exp=1697728052~hmac=bed171f236cf6bead59061e50fd360227aafc15974a93669054f3546bda8f10d" />
+          <img src="https://st2.depositphotos.com/3591429/10566/i/950/depositphotos_105666254-stock-photo-business-people-at-meeting-and.jpg" />
         </div>
         <div>
-          <p>
-            Founded in 1996 in Amsterdam, Booking.com has grown from a small
-            Dutch start-up to one of the worlds leading digital travel
-            companies. Part of Booking Holdings Inc. (NASDAQ: BKNG),
-            Booking.coms mission is to make it easier for everyone to experience
-            the world.
+          <p className="p-4">
+            Booking.com is one of the largest online travel agencies. It is headquartered in Amsterdam, and is a subsidiary of Booking Holdings. In 2022, the companys mobile app was the most downloaded mobile app in the travel agency category. Our Privacy Policy explains what personal information we collect, how we use personal information, how personal information is shared, and privacy rights. Our Privacy Policy explains what personal information we collect, how we use personal information, how personal information is shared, and privacy rights.
           </p>
 
-          <p>
+          {/* <p>
             By investing in technology that takes the friction out of travel,
             Booking.com seamlessly connects millions of travelers to memorable
             experiences, a variety of transportation options, and incredible
@@ -52,7 +48,7 @@ const page = () => {
             apartments, and other unique places to stay. Wherever you want to go
             and whatever you want to do, Booking.com makes it easy and supports
             you with 24/7 customer support.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
