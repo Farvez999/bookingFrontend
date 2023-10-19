@@ -42,7 +42,7 @@ const HotelCard = ({ serviceData }: any) => {
       <div className="w-full md:w-2/3">
         <div>
           <h3 className="text-lg font-semibold text-capitalize">{name}</h3>
-          <p className="text-blue-600 text-sm capitalize underline">
+          <p className="text-orange-600 text-sm capitalize underline">
             {location}
           </p>
         </div>
@@ -70,7 +70,7 @@ const HotelCard = ({ serviceData }: any) => {
                 </li>
               ))}
             </ul>
-            <h5 className="mt-4 font-bold text-blue-600">
+            <h5 className="mt-4 font-bold text-orange-600">
               {locationInDetails}
             </h5>
           </div>

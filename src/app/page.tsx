@@ -24,7 +24,7 @@ export default function Home() {
     ...query,
   });
 
-  console.log(data);
+  console.log("Hello Data", data);
   console.log(query);
   const handlePageClick = (selectedPage: any) => {
     setPage(selectedPage.selected);

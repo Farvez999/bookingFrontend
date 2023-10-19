@@ -298,7 +298,7 @@ const RoomDetails = ({ params }: { params: any }) => {
           ))}
         </div>
 
-        <h3 className="font-bold text-blue-600">code: {roomId}</h3>
+        <h3 className="font-bold text-orange-600">code: {roomId}</h3>
         <h3>Facilites:</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center ">
           {facilities?.map((item: any) => (

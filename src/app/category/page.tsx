@@ -26,7 +26,7 @@ const Services = () => {
   console.log(query);
   return (
     <div className="flex min-h-screen flex-col items-center  pb-10">
-      <h1 className="text-2xl my-6 font-bold text-blue-600">
+      <h1 className="text-2xl my-6 font-bold text-orange-600">
         Our Categories Services
       </h1>
 

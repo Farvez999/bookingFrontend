@@ -41,7 +41,7 @@ const RoomCard = ({ room }: any) => {
       <div className="w-full ">
         <div>
           <h3 className="text-lg font-semibold text-capitalize">{title}</h3>
-          <p className="text-blue-600 text-sm capitalize underline">
+          <p className="text-orange-600 text-sm capitalize underline">
             {category}
           </p>
         </div>
